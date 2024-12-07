@@ -40,6 +40,30 @@
         h2, h3 {
             color: white;
         }
+        .back-button {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .back-button img {
+            width: 30px;
+            height: 30px;
+            margin-right: 10px;
+        }
+        @media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    .sidebar {
+        width: 100%;
+        position: relative;
+        height: auto;
+    }
+    .content {
+        width: 100%;
+        margin-left: 0;
+    }
+}
     </style>
 </head>
 <body>
@@ -60,6 +84,12 @@
             </ul>
         </div>
         <div class="content">
+            <div class="back-button">
+                <a href="https://gmetis.io">
+                    <img src="path/to/logo.png" alt="Logo">
+                    <span>Back to Main Page</span>
+                </a>
+            </div>
             <h1 id="introduction">Introduction</h1>
             <p>gMetis is a pioneering AI-agent-driven crypto project built on the Metis Layer 2 of Ethereum. It combines the engaging aspects of a meme token with the utility of an AI-driven community management tool. The project aims to foster a vibrant and interactive community while providing real-time data and rewards to its members.</p>
             <h2>Vision and Mission</h2>
