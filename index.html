@@ -96,6 +96,10 @@
             <div style="text-align: center;">
                 <img src="img/tokenomics.png" alt="Tokenomics" style="max-width: 50%; height: auto;">
             </div>
+
+            
+
+
             <h1 id="metrics">Metrics</h1>
             <h2>Key Performance Indicators (KPIs)</h2>
             <p>The following KPIs will be tracked and displayed on the website to provide transparency and insights into the project's performance:</p>
@@ -117,18 +121,20 @@
             <p>The AI agent will perform sentiment analysis on conversations to gauge the overall mood and engagement level of the community. This will help in understanding community sentiment and making informed decisions.</p>
             <h3>Interaction Tracking</h3>
             <p>The AI will track user interactions to identify active members and measure engagement levels. This data will be used to reward active participants and improve community management.</p>
-            <h2>Web3 Capabilities</h2>
+            <h2>Web3 Capabilities and Integrations</h2>
             <h3>Integration with Telegram and X.com</h3>
             <p>The AI agent will be integrated with Telegram and X.com using their respective APIs. This will enable seamless interaction and data exchange between the platforms and the AI agent.</p>
             <h3>Real-time Data Pulls</h3>
             <p>The AI agent will fetch real-time data on cryptocurrency prices (BTC, ETH, Metis, and smaller caps on Andromeda) and hot conversations from X.com. This data will be used to provide timely updates and insights to the community.</p>
+            <h3>Token transfer</h3>
+            <p>The AI agent will send rewards in gMetis token to the selected user daily</p>
 
             <h1 id="reward-system">Reward System</h1>
             <h2>Reward Distribution Process</h2>
             <p>The AI agent manages the reward distribution process. Each day, it randomly selects one member from the top 5-10 interactors based on their engagement levels. The selected member is contacted via private message to provide their wallet address.</p>
             <h3>Steps:</h3>
             <ol>
-                <li><strong>Winner Selection</strong>: The AI agent selects a winner based on engagement metrics.</li>
+                <li><strong>Winner Selection</strong>: The AI agent selects a winner based on engagement metrics. One user can win maximum once per week.</li>
                 <li><strong>Announcement</strong>: The AI agent announces the winner in the main Telegram group chat.
                     <p>Example message: "Congratulations @username! You have been selected as today's top contributor. Please check your private messages to provide your wallet address for the reward."</p>
                 </li>
@@ -167,15 +173,25 @@
                                     <li><strong>Distribution Method</strong>: The AI agent sends the reward tokens to the winner's wallet via an on-chain transaction. The distribution is reflected in the project's database and displayed on the website.</li>
                                 </ul>
                             </p>
-                
                             <h1 id="technical-overview">Technical Overview</h1>
                             <h2>Smart Contract Development</h2>
-                            <p>The gMetis ERC-20 token contract will be developed according to the latest standards. It will include the initial minting process and be renounced post-launch to prevent further modifications.</p>
-                            <h2>Website Development</h2>
-                            <p>The project website will be designed with a modern and simple layout, inspired by Metis.io. It will include sections for project info, tokenomics, AI agent details, KPIs, and social media contacts. Additional links will provide access to the Metis bridge and project documentation.</p>
-                            <h2>AI Backend Development</h2>
-                            <p>The AI agent's backend will be developed to handle community interactions, sentiment analysis, moderation, and reward distribution. It will be integrated with Telegram and X.com using their APIs and will fetch real-time data to provide valuable insights to the community.</p>
-                
+<p>The gMetis ERC-20 token contract will be developed according to the latest Ethereum standards to ensure security, efficiency, and compatibility. The contract will include the following features:</p>
+<ul>
+    <li><strong>Initial Minting:</strong> All 10,000,000 gMetis tokens will be minted at the time of contract deployment. This ensures a fixed supply and prevents inflation.</li>
+    <li><strong>Ownership Renouncement:</strong> After the initial minting, the contract ownership will be renounced. This means no further modifications or minting can occur, ensuring trust and transparency.</li>
+    <li><strong>Standard ERC-20 Functions:</strong> The contract will implement all standard ERC-20 functions, including transfer, approve, and transferFrom, to facilitate token transactions and integrations with other platforms.</li>
+    <li><strong>Security Measures:</strong> The contract will undergo rigorous security audits to identify and mitigate potential vulnerabilities. This includes checks for reentrancy attacks, overflow/underflow issues, and other common smart contract risks.</li>
+</ul>                            
+<h2>AI Backend Development</h2>
+<p>The AI agent's backend will be a critical component of the gMetis project, enabling advanced community management and interaction capabilities. The development will focus on the following areas:</p>
+<ul>
+    <li><strong>Community Interaction:</strong> The AI agent will be designed to read and respond to conversations on Telegram and X.com, initiate new discussions, and maintain continuous engagement. It will act as a community moderator, ensuring discussions remain relevant and positive.</li>
+    <li><strong>Sentiment Analysis:</strong> The AI will perform sentiment analysis on user interactions to gauge the overall mood and engagement level of the community. This data will be used to make informed decisions and improve community management.</li>
+    <li><strong>Moderation Capabilities:</strong> Advanced algorithms will be implemented to detect and block inappropriate content, including offensive language, spam, and irrelevant posts. This ensures a high-quality interaction environment.</li>
+    <li><strong>Reward Distribution:</strong> The AI agent will manage the reward distribution process, selecting winners based on engagement metrics, verifying token holdings, and calculating rewards. It will initiate on-chain transactions to distribute rewards and update the public ledger.</li>
+    <li><strong>Integration with APIs:</strong> The AI backend will integrate with Telegram and X.com APIs to enable seamless interaction and data exchange. It will also fetch real-time data on cryptocurrency prices and hot conversations to provide timely updates to the community.</li>
+    <li><strong>Security and Scalability:</strong> The backend will be developed with a focus on security and scalability, ensuring it can handle a growing number of users and interactions without compromising performance or data integrity.</li>
+</ul>
                             <h1 id="communication-strategy">Communication Strategy</h1>
                             <h2>Social Media Engagement</h2>
                             <p>The communication strategy will focus on engaging with the community on Telegram and X.com. Regular updates, interactive discussions, and prompt responses will be key to maintaining an active and engaged community.</p>
@@ -207,6 +223,7 @@
                             </ul>
                             <h2>References and Resources</h2>
                             <ul>
+                                <li><a href="https://www.metis.io/bridge" target="_blank">Bridge to Metis</a></li>
                                 <li><a href="https://www.metis.io" target="_blank">Metis.io</a></li>
                                 <li><a href="https://hercules.dex" target="_blank">Hercules DEX</a></li>
                             </ul>
