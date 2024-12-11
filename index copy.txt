@@ -64,7 +64,7 @@
         width: 100%;
         margin-left: 0;
     }
-}}
+}
     </style>
 </head>
 <body>
@@ -249,13 +249,12 @@
                                 <li><strong>Reward System Activation</strong>: Implementing the reward distribution system.</li>
                                 <li><strong>Marketing Campaigns</strong>: Initiating marketing campaigns to attract more users.</li>
                                 <li><strong>Partnerships and Collaborations</strong>: Establishing strategic partnerships to enhance the project.</li>
-
+                                <li><strong>Community Governance</strong>: Introducing community governance mechanisms.</li>
+                                <li><strong>Continuous Improvement</strong>: Ongoing updates and improvements based on user feedback.</li>
                             </ul>
                             
                             <h2>Q2 2025 and Beyond</h2>
                             <ul>
-                                <li><strong>Community Governance</strong>: Introducing community governance mechanisms.</li>
-                                <li><strong>Continuous Improvement</strong>: Ongoing updates and improvements based on user feedback.</li>
                                 <li><strong>Expansion</strong>: Expanding the AI agent's capabilities and integrating with more platforms.</li>
                                 <li><strong>Advanced Features</strong>: Developing and deploying advanced features based on community needs.</li>
                                 <li><strong>Global Outreach</strong>: Expanding the community and user base globally.</li>
@@ -272,7 +271,6 @@
                                 <li><a href="https://x.com/gMetisl2" target="_blank">X.Com</a></li>
                                 <li><a href="https://t.me/gmetisio" target="_blank">Telegram</a></li>
                                 <li><a href="https://ceg.vote/t/cvp-proposal-gmetis/3743" target="_blank">ceg.vote CVP Proposal</a></li>
-                                </br>
                                 <li><a href="https://www.metis.io/bridge" target="_blank">Bridge to Metis</a></li>
                                 <li><a href="https://www.metis.io" target="_blank">Metis.io</a></li>
                                 <li><a href="https://app.hercules.exchange/" target="_blank">Hercules DEX</a></li>

@@ -64,7 +64,7 @@
         width: 100%;
         margin-left: 0;
     }
-}}
+}
     </style>
 </head>
 <body>
@@ -218,7 +218,12 @@
                             <h2>Marketing Campaigns</h2>
                             <p>Marketing campaigns will be designed to promote the project and attract new users. These campaigns will leverage social media, influencer partnerships, and community events to increase visibility and engagement.</p>
                 
-                            
+                            <h1 id="legal-compliance">Legal and Compliance</h1>
+                            <h2>Regulatory Compliance</h2>
+                            <p>The gMetis project will comply with MiCA and other relevant regulations to ensure legal and regulatory adherence. This includes proper documentation, transparent operations, and adherence to financial regulations.</p>
+                            <h2>Security Measures</h2>
+                            <p>Robust security measures will be implemented to protect user data and funds. This includes secure smart contract development, regular security audits, and data encryption.</p>
+                
                             <h1 id="faqs">FAQs</h1>
                             <h2>Common Questions and Answers</h2>
                             <ul>
@@ -228,38 +233,7 @@
                             </ul>
                             <h2>Contact Information for Further Inquiries</h2>
                             <p>For any additional questions or inquiries, please contact us at support@gmetis.io.</p>
-
-
-                            <h1>Roadmap</h1>
-                            <h2>Q4 2024</h2>
-                            <ul>
-                                <li><strong>Project Inception</strong>: Concept development and initial planning.</li>
-                                <li><strong>Team Formation</strong>: Assembling the core team and defining roles.</li>
-                                <li><strong>Whitepaper Draft</strong>: Creating the initial draft of the whitepaper.</li>
-                                <li><strong>AI Agent Development</strong>: Starting the development of the AI agent for community interaction.</li>
-                                <li><strong>Tokenomics Design</strong>: Finalizing the tokenomics and reward system.</li>
-                                <li><strong>Community Building</strong>: Launching social media channels and engaging early adopters.</li>
-                                <li><strong>Token Launch</strong>: Conducting the token launch on Metis Forge.</li>
-                            </ul>
-                                <h2>Q1 2025</h2>
-                            <ul>
-                                <li><strong>AI Agent Integration</strong>: Integrating the AI agent with Telegram and X.com.</li>
-                                <li><strong>Beta Testing</strong>: Launching a beta version of the AI agent for community feedback.</li>
-                                <li><strong>Full AI Agent Deployment</strong>: Rolling out the AI agent with full functionality.</li>
-                                <li><strong>Reward System Activation</strong>: Implementing the reward distribution system.</li>
-                                <li><strong>Marketing Campaigns</strong>: Initiating marketing campaigns to attract more users.</li>
-                                <li><strong>Partnerships and Collaborations</strong>: Establishing strategic partnerships to enhance the project.</li>
-
-                            </ul>
-                            
-                            <h2>Q2 2025 and Beyond</h2>
-                            <ul>
-                                <li><strong>Community Governance</strong>: Introducing community governance mechanisms.</li>
-                                <li><strong>Continuous Improvement</strong>: Ongoing updates and improvements based on user feedback.</li>
-                                <li><strong>Expansion</strong>: Expanding the AI agent's capabilities and integrating with more platforms.</li>
-                                <li><strong>Advanced Features</strong>: Developing and deploying advanced features based on community needs.</li>
-                                <li><strong>Global Outreach</strong>: Expanding the community and user base globally.</li>
-                            </ul>
+                
                             <h1 id="appendix">Appendix & onchain proof</h1>
                             <h2>Glossary of Terms</h2>
                             <ul>
@@ -269,18 +243,28 @@
                             </ul>
                             <h2>References and Resources</h2>
                             <ul>
-                                <li><a href="https://x.com/gMetisl2" target="_blank">X.Com</a></li>
-                                <li><a href="https://t.me/gmetisio" target="_blank">Telegram</a></li>
-                                <li><a href="https://ceg.vote/t/cvp-proposal-gmetis/3743" target="_blank">ceg.vote CVP Proposal</a></li>
-                                </br>
                                 <li><a href="https://www.metis.io/bridge" target="_blank">Bridge to Metis</a></li>
                                 <li><a href="https://www.metis.io" target="_blank">Metis.io</a></li>
-                                <li><a href="https://app.hercules.exchange/" target="_blank">Hercules DEX</a></li>
-                                <li><a href="https://metisforge.io/" target="_blank">Metis Forge</a></li>
+                                <li><a href="https://hercules.dex" target="_blank">Hercules DEX</a></li>
                             </ul>
                             <h2>Onchain proof</h2>
-                            <p>In our commitment to full transparency, we will have dedicated site to provide the transactions and wallet addresses associated with the budget and reward system.</p></br>
+                            <p>In our commitment to full transparency, we have provided the transactions and wallet addresses associated with the budget.</p></br>
+                            <h3>Transactions</h3>
+                            <ul>
+                                <li><a href="https://andromeda-explorer.metis.io/" target="_blank">Deployment</a></li>
+                                <li><a href="https://andromeda-explorer.metis.io/" target="_blank">Contract Renouncement</a></li>
+                                <li><a href="https://andromeda-explorer.metis.io/" target="_blank">Hercules DEX - locked liquidity</a></li>
+                            </ul>
+                            <h3>wallets</h3>
+                            <ul>
+                                <li><a href="https://andromeda-explorer.metis.io/" target="_blank">Owner</a></li>
+                                <li><a href="https://andromeda-explorer.metis.io/" target="_blank">Team</a></li>
+                                <li><a href="https://andromeda-explorer.metis.io/" target="_blank">Infrastructure</a></li>
+                                <li><a href="https://andromeda-explorer.metis.io/" target="_blank">Rewards</a></li>
+                                <li><a href="https://andromeda-explorer.metis.io/" target="_blank">Marketing</a></li>
+                            </ul>
                         </div>
                     </div>
                 </body>
                 </html>
+                
